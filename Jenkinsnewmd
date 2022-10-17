@@ -1,1 +1,23 @@
+pipeline {
+    agent any
+    stages {
+        stage('checkout') {
+            steps {
+                echo 'Who are you'
+            }
+        }
+     stage('build') {
+            steps {
+                echo 'Hey are you there'
+            }
+        }
+     stage('deploy') {
+            steps {
+                echo 'How are you doing'
+            }
+        }
+    }
+} 
+
+
 
